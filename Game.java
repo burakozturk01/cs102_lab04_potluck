@@ -22,7 +22,7 @@ public class Game
       System.out.println( "Start...");
       
       // Scanning number n
-      n = scan.nextInt();
+      do {n = scan.nextInt(); } while (n < 2);
       
       // Creating Potluck object
       p = new Potluck(n);
